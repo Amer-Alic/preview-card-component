@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+#wrapper {
+    max-width: 21em;
+    width: 100%;
+
+}
+
+#container {
+    box-shadow: 0px 0px 39px 13px rgba(3, 16, 56, 1);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+}
+
+#main-img {
+    max-height: 400px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+#bottom-content {
+    flex: 1;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem
+}
+
+p,
+#time-left-p,
+#creator-p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+}
+
+#price-p,
+#time-left-p,
+#creator-p {
+    font-size: 0.9rem;
+}
+
+#data {
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+}
+
+#creator-name {
+    color: white;
+}
+
+#price-p {
+    color: hsl(178, 100%, 50%);
+    margin-right: 6.7em;
+}
+
+div#price,
+div#time-left {
+    display: inline-block;
+}
+
+#creator-img {
+    width: 100%;
+    max-width: 10%;
+    border: 1px solid white;
+    border-radius: 60px;
+}
+
+#creator-p {
+    display: inline-block;
+    transform: translate(12px, -8px);
+}
+
+#price-p,
+#time-left-p {
+    display: inline-block;
+    transform: translate(0, -3px);
+}
+
+h1,
+#creator-name {
+    transition: color 0.3s ease
+}
+
+#main-img:active {
+    background-color: hsl(178, 100%, 50%);
+}
+
+h1:active,
+#creator-name:active {
+    color: hsl(178, 100%, 50%);
+}
+
+h1:hover,
+#creator-name:hover {
+    cursor: pointer;
+}
