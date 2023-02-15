@@ -2,4 +2,4 @@
 This is card component made from pure HTML and CSS.
 All style guides i used are included in the folder.
 If you have any suggestions or comments I would be thankful to hear them!
-[Live Preview](https://amer-tech.github.io/preview-card-component/)
+[Live Preview](https://amer-alic.github.io/preview-card-component/)
